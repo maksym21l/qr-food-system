@@ -72,10 +72,10 @@ Automate the process using:
 ## 📊 Example Diagrams
 
 ### BPMN
-![BPMN](docs/UA/diagrams/bpmn/final_diagram(bpmn)UK.svg)
+![BPMN](docs/UK/diagrams/bpmn/final_diagram(bpmn)UK.svg)
 
 ### ERD
-![ERD](docs/UA/diagrams/erd/qr-db.drawio.png)
+![ERD](docs/UK/diagrams/erd/qr-db.drawio.png)
 
 ---
 
