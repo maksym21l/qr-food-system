@@ -1,20 +1,37 @@
-# Wireframes Flow
+# Wireframes Flow — QR Lunch Ordering System
 
-This folder contains low-fidelity wireframes created in Balsamiq.
+This folder contains wireframes that show the screen sequence of the system.
 
-They show the exact screen order of the system.
+Below is the exact order of screens during real usage.
 
 ---
 
-## Screen Sequence
+## 🔄 Screen Flow
 
-1. Loading → Loading.png  
-2. Login → Log in.png  
-3. Student Home → Home page.png  
-4. Cook Terminal → Home page(site).png  
-5. Cook shows QR → Qr code.png  
-6. Student scans QR  
-7. Cook selects dishes and confirms → Search student.png  
+1. Loading  
+   → `Loading.png`  
+   App starts.
+
+2. Login  
+   → `Log in.png`  
+   Student enters student number and logs in.
+
+3. Student Home (mobile)  
+   → `Home page.png`  
+   Student sees profile and balance.
+
+4. Cook Terminal (web)  
+   → `Home page(site).png`  
+   Cook shows QR code on the screen.
+
+5. QR Code  
+   → `Qr code.png`  
+   Student scans the QR code.
+
+6. Order Processing  
+   → `Search student.png`  
+   Student profile opens for the cook.  
+   Cook selects dishes → confirms → money is deducted.
 
 ---
 
