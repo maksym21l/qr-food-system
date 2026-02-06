@@ -9,15 +9,15 @@ Below is the exact order of screens during real usage.
 ## 🔄 Screen Flow
 
 1. Loading  
-   → `Loading.png`  
+   → `Loading((phone)).png`  
    App starts.
 
 2. Login  
-   → `Log in.png`  
+   → `Login(phone).png`  
    Student enters student number and logs in.
 
 3. Student Home (mobile)  
-   → `Home page.png`  
+   → `Home page(phone).png`  
    Student sees profile and balance.
 
 4. Cook Terminal (web)  
@@ -25,11 +25,11 @@ Below is the exact order of screens during real usage.
    Cook shows QR code on the screen.
 
 5. QR Code  
-   → `Qr code.png`  
+   → `Qr-code(site).png`  
    Student scans the QR code.
 
 6. Order Processing  
-   → `Search student.png`  
+   → `Search_student(site).png`  
    Student profile opens for the cook.  
    Cook selects dishes → confirms → money is deducted.
 
