@@ -9,7 +9,7 @@ Below is the exact order of screens during real usage.
 ## 🔄 Screen Flow
 
 1. Loading  
-   → `Loading((phone)).png`  
+   → `Loading(phone).png`  
    App starts.
 
 2. Login  
