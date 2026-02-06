@@ -1,7 +1,7 @@
 # 🍽 QR Lunch Ordering System
 ### Business Analysis Case Study
 
-**Languages:** [English](README.md) | [Українська](README_UA.md)
+**Languages:** [English](README.md) | [Українська](README(UA).md)
 
 A Business Analysis pet-project that automates student meal payments using QR-code identification.
 
