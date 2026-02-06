@@ -1,96 +1,95 @@
-# 🍽 QR Food System
+# 🍽 QR Lunch Ordering System
+### Business Analysis Case Study
 
-A learning pet-project focused on automating student meal payments using QR-code identification.
+**Languages:** [English](README.md) | [Українська](README_UA.md)
 
-The system enables fast student identification, automatic balance deduction, transaction history tracking, and monthly accounting reports.
+A Business Analysis pet-project that automates student meal payments using QR-code identification.
+
+The system allows fast student identification, automatic balance deduction, transaction tracking, and monthly reporting for accounting.
 
 ---
 
 ## 📌 Problem
 
-The current meal accounting process is manual, which leads to:
-
-- Paper-based tracking
-- Long queues in the cafeteria
-- Calculation errors
-- Difficult report generation
+The current cafeteria process is manual:
+- paper-based lists
+- slow identification
+- queues
+- calculation errors
+- difficult reporting
 
 ---
 
-## 🎯 Project Goal
+## 🎯 Goal
 
-Automate the meal payment process using:
-
-- QR-code identification
-- Digital transactions
-- Centralized data storage
-
-The goal is to improve speed, accuracy, and transparency of operations.
+Automate the process using:
+- QR identification
+- digital transactions
+- centralized database
+- automatic monthly reports
 
 ---
 
 ## ⚙️ Features
 
-✅ Student QR-code scanning  
-✅ Balance verification  
+✅ QR identification  
+✅ Balance check  
+✅ Meal selection  
 ✅ Automatic payment deduction  
-✅ Transaction history tracking  
-✅ Cook dashboard for processing orders  
-✅ Admin panel for price management  
-✅ Monthly financial reports for accounting  
+✅ Transaction history  
+✅ Cook terminal  
+✅ Monthly accounting reports  
 
 ---
 
 ## 👥 System Actors
 
 | Actor | Role |
-|---------|-----------------------------|
-| Student | scans QR, pays for meals, checks balance |
-| Cook | selects meals and processes transactions |
-| Accountant | views and downloads monthly reports |
-| Administrator | manages products, prices, and access |
+|------|------|
+| Student | scans QR and pays for meals |
+| Cook | selects meals and confirms orders |
+| Accountant | downloads reports |
+| Admin | manages products and prices |
 
 ---
 
-## 📐 Diagrams & Documentation
+## 📐 Documentation & Diagrams
 
-The project includes Business Analysis artifacts:
+### 🇺🇦 Ukrainian version
+- Requirements → `docs/UA/requirements.docx`
+- Use Cases → `docs/UA/use-cases.docx`
+- BPMN → `docs/UA/diagrams/bpmn/`
+- Wireframes → `docs/UA/diagrams/wireframes/`
+- ERD → `docs/UA/diagrams/erd/`
 
-- ERD (database schema)
-- BPMN process diagrams
-- Workflow diagrams
-- UI wireframes
-- Requirements documentation
-
-Files are located in:
+### 🇬🇧 English version
+- Requirements → `docs/UK/`
+- Use Cases → `docs/UK/`
+- Diagrams → `docs/UK/diagrams/`
 
 ---
 
-## 🛠 Technologies / Tools
+## 📊 Example Diagrams
+
+### BPMN
+![BPMN](docs/UA/diagrams/bpmn/final_diagram(bpmn)UA.svg)
+
+### ERD
+![ERD](docs/UA/diagrams/erd/qr-db.drawio.png)
+
+---
+
+## 🛠 Tools
 
 - BPMN.io
 - Draw.io
-- Figma / Balsamiq (wireframes)
-- PostgreSQL (database design)
-- Git / GitHub
-
----
-
-## 🎓 Purpose
-
-This project was created for learning and portfolio purposes to practice:
-
-- Business Analysis
-- Process modeling (BPMN)
-- Requirements engineering
-- System design
-- Documentation
-- Database modeling
-- Version control with Git
+- Balsamiq
+- PostgreSQL (design)
+- Git/GitHub
 
 ---
 
 ## 👨‍💻 Author
 
-Maksym — Junior Business Analyst & Python Developer  
-Portfolio project for freelance and professional growth
+Maksym  
+Junior Business Analyst & Python Developer
