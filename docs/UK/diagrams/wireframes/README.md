@@ -17,11 +17,11 @@ Below is the exact order of screens during real usage.
    Student enters student number and logs in.
 
 3. Student Home (mobile)  
-   → `Home page(phone).png`  
+   → `Home-page(phone).png`  
    Student sees profile and balance.
 
 4. Cook Terminal (web)  
-   → `Home page(site).png`  
+   → `Home-page(site).png`  
    Cook shows QR code on the screen.
 
 5. QR Code  
