@@ -6,7 +6,7 @@
 
 ---
 
-# 📌 Problem
+# 📌 Проблема
 
 - Облік харчування ведеться вручну
 - Утворюються черги в їдальні
@@ -15,7 +15,7 @@
 
 ---
 
-# 🎯 Project Goal
+# 🎯 Мета проєкту
 
 Автоматизувати процес оплати харчування через:
 - QR authentication
@@ -24,7 +24,7 @@
 
 ---
 
-# ⚙️ Features
+# ⚙️ Функціонал
 
 ✅ QR-code scanning  
 ✅ Balance validation  
@@ -37,18 +37,18 @@
 
 ---
 
-# 👥 System Actors
+# 👥 Актори системи
 
-| Actor | Role |
+| Актор | Роль |
 |---|---|
-| Student | Scans QR, pays for meals, checks balance |
-| Cook | Selects meals and confirms transactions |
-| Accountant | Views and exports monthly reports |
-| Administrator | Manages products, prices, and system data |
+| Student | Сканує QR, оплачує харчування та переглядає баланс |
+| Cook | Обирає страви та підтверджує транзакції |
+| Accountant | Переглядає та експортує місячні звіти |
+| Administrator | Керує продуктами, цінами та системними даними |
 
 ---
 
-# 📂 Documentation
+# 📂 Документація
 
 ## Confluence Documentation
 
@@ -66,9 +66,10 @@
 
 ---
 
-# 📐 Diagrams
+# 📐 Діаграми
 
 Проєкт містить:
+
 - BPMN diagrams
 - ERD (Entity Relationship Diagram)
 - Use Case diagrams
@@ -77,7 +78,7 @@
 Файли знаходяться у папці:
 
 ```text
-diagrams/
+/diagrams
 ```
 
 ---
@@ -85,6 +86,7 @@ diagrams/
 # 📋 Jira Workflow
 
 Проєкт містить:
+
 - Product Backlog
 - Sprint Board
 - User Stories
@@ -94,14 +96,15 @@ diagrams/
 Файли знаходяться у папці:
 
 ```text
-jira/
+/jira
 ```
 
 ---
 
-# 🎓 Project Purpose
+# 🎓 Призначення проєкту
 
 Проєкт створено з навчальною метою для:
+
 - system analysis
 - business analysis practice
 - database design
@@ -125,6 +128,6 @@ jira/
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Автор
 
 Maksym — student developer & junior business analyst.
