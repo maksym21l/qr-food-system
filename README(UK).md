@@ -1,96 +1,130 @@
 # 🍽 QR Food System
 
-A learning pet-project focused on automating student meal payments using QR-code identification.
+Educational pet project for automating student meal accounting using QR codes.
 
-The system enables fast student identification, automatic balance deduction, transaction history tracking, and monthly accounting reports.
+The system allows fast student identification, balance deduction, transaction history tracking, and monthly report generation for accounting.
 
 ---
 
-## 📌 Problem
+# 📌 Problem
 
-The current meal accounting process is manual, which leads to:
-
-- Paper-based tracking
+- Meal accounting is handled manually
 - Long queues in the cafeteria
-- Calculation errors
-- Difficult report generation
+- Human errors in calculations
+- Difficult report generation process
 
 ---
 
-## 🎯 Project Goal
+# 🎯 Project Goal
 
 Automate the meal payment process using:
-
-- QR-code identification
-- Digital transactions
-- Centralized data storage
-
-The goal is to improve speed, accuracy, and transparency of operations.
+- QR authentication
+- digital transactions
+- automated reporting
 
 ---
 
-## ⚙️ Features
+# ⚙️ Features
 
-✅ Student QR-code scanning  
-✅ Balance verification  
-✅ Automatic payment deduction  
-✅ Transaction history tracking  
-✅ Cook dashboard for processing orders  
-✅ Admin panel for price management  
-✅ Monthly financial reports for accounting  
+✅ QR-code scanning  
+✅ Balance validation  
+✅ Meal payment transactions  
+✅ Transaction history  
+✅ Cook dashboard  
+✅ Administrator panel  
+✅ Monthly reporting system  
+✅ PostgreSQL database integration  
 
 ---
 
-## 👥 System Actors
+# 👥 System Actors
 
 | Actor | Role |
-|---------|-----------------------------|
-| Student | scans QR, pays for meals, checks balance |
-| Cook | selects meals and processes transactions |
-| Accountant | views and downloads monthly reports |
-| Administrator | manages products, prices, and access |
+|---|---|
+| Student | Scans QR, pays for meals, checks balance |
+| Cook | Selects meals and confirms transactions |
+| Accountant | Views and exports monthly reports |
+| Administrator | Manages products, prices, and system data |
 
 ---
 
-## 📐 Diagrams & Documentation
+# 📂 Documentation
 
-The project includes Business Analysis artifacts:
+## Confluence Documentation
 
-- ERD (database schema)
-- BPMN process diagrams
-- Workflow diagrams
-- UI wireframes
-- Requirements documentation
+- [Vision & Scope](docs/EN/confluence/vision-and-scope.md)
+- [Business Requirements](docs/EN/confluence/business-requirements.md)
+- [Business Rules](docs/EN/confluence/business-rules.md)
+- [Functional Requirements](docs/EN/confluence/functional-requirements.md)
+- [Non-Functional Requirements](docs/EN/confluence/non-functional-requirements.md)
+- [API Specification](docs/EN/confluence/api-specification.md)
+- [Use Cases](docs/EN/confluence/use-cases.md)
+- [Test Cases](docs/EN/confluence/test-cases.md)
+- [Data Model](docs/EN/confluence/data-model.md)
+- [Stakeholders](docs/EN/confluence/stakeholders.md)
+- [System Overview](docs/EN/confluence/system-overview.md)
+
+---
+
+# 📐 Diagrams
+
+The project includes:
+- BPMN diagrams
+- ERD (Entity Relationship Diagram)
+- Use Case diagrams
+- Wireframes
 
 Files are located in:
 
----
-
-## 🛠 Technologies / Tools
-
-- BPMN.io
-- Draw.io
-- Figma / Balsamiq (wireframes)
-- PostgreSQL (database design)
-- Git / GitHub
+```text
+diagrams/
+```
 
 ---
 
-## 🎓 Purpose
+# 📋 Jira Workflow
 
-This project was created for learning and portfolio purposes to practice:
+The project contains:
+- Product Backlog
+- Sprint Board
+- User Stories
+- Acceptance Criteria
+- Workflow Tracking
 
+Files are located in:
+
+```text
+jira/
+```
+
+---
+
+# 🎓 Project Purpose
+
+The project was created for educational purposes:
+- system analysis
+- business analysis practice
+- database design
+- workflow modeling
+- requirements documentation
+- Jira & Confluence practice
+- Git/GitHub workflow
+
+---
+
+# 🛠 Tools & Technologies
+
+- Jira
+- Confluence
+- BPMN
+- PostgreSQL
+- Markdown
+- Git & GitHub
+- System Analysis
 - Business Analysis
-- Process modeling (BPMN)
-- Requirements engineering
-- System design
-- Documentation
-- Database modeling
-- Version control with Git
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-Maksym — Junior Business Analyst & Python Developer  
-Portfolio project for freelance and professional growth
+Maksym — student developer & junior business analyst.
