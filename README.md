@@ -6,65 +6,125 @@
 
 ---
 
-## 📌 Проблема
-- Облік ведеться вручну
-- Черги в їдальні
-- Помилки в розрахунках
-- Важко формувати звіти
+# 📌 Problem
+
+- Облік харчування ведеться вручну
+- Утворюються черги в їдальні
+- Виникають помилки в розрахунках
+- Важко формувати звітність для бухгалтерії
 
 ---
 
-## 🎯 Мета проєкту
+# 🎯 Project Goal
+
 Автоматизувати процес оплати харчування через:
-- QR-коди
-- цифрові транзакції
+- QR authentication
+- digital transactions
+- automated reporting
 
 ---
 
-## ⚙️ Функціонал (Features)
-✅ Сканування QR-коду студента  
-✅ Перевірка балансу  
-✅ Списання коштів за страви  
-✅ Збереження історії оплат  
-✅ Панель кухаря для проведення транзакцій  
-✅ Адмін-панель для керування цінами  
-✅ Формування звітів для бухгалтерії  
+# ⚙️ Features
+
+✅ QR-code scanning  
+✅ Balance validation  
+✅ Meal payment transactions  
+✅ Transaction history  
+✅ Cook dashboard  
+✅ Administrator panel  
+✅ Monthly reporting system  
+✅ PostgreSQL database integration  
 
 ---
 
+# 👥 System Actors
 
-
-
-## 👥 Актори системи
-
-| Актор | Роль |
-|---------|-----------------------------|
-| Студент | сканує QR, оплачує, переглядає баланс |
-| Кухар | додає страви та проводить оплату |
-| Бухгалтерія | переглядає та завантажує звіти |
-| Адміністратор | керує цінами та доступами |
+| Actor | Role |
+|---|---|
+| Student | Scans QR, pays for meals, checks balance |
+| Cook | Selects meals and confirms transactions |
+| Accountant | Views and exports monthly reports |
+| Administrator | Manages products, prices, and system data |
 
 ---
 
-## 📐 Діаграми та документація
+# 📂 Documentation
+
+## Confluence Documentation
+
+- [Vision & Scope](docs/UA/confluence/vision-and-scope.md)
+- [Business Requirements](docs/UA/confluence/business-requirements.md)
+- [Business Rules](docs/UA/confluence/business-rules.md)
+- [Functional Requirements](docs/UA/confluence/functional-requirements.md)
+- [Non-Functional Requirements](docs/UA/confluence/non-functional-requirements.md)
+- [API Specification](docs/UA/confluence/api-specification.md)
+- [Use Cases](docs/UA/confluence/use-cases.md)
+- [Test Cases](docs/UA/confluence/test-cases.md)
+- [Data Model](docs/UA/confluence/data-model.md)
+- [Stakeholders](docs/UA/confluence/stakeholders.md)
+- [System Overview](docs/UA/confluence/system-overview.md)
+
+---
+
+# 📐 Diagrams
+
 Проєкт містить:
-- ER-діаграму бази даних
-- BPMN процеси
-- Wireframes інтерфейсу
+- BPMN diagrams
+- ERD (Entity Relationship Diagram)
+- Use Case diagrams
+- Wireframes
 
 Файли знаходяться у папці:
-```
-docs/diagrams/
-```
 
-## 🎓 Призначення
-Проєкт створено з навчальною метою для:
-- роботи з БД
-- проєктування систем
-- використання Git
-- підготовки до реальних IT-проєктів
+```text
+diagrams/
+```
 
 ---
 
-## 👨‍💻 Автор
-Maksym (студент-розробник, BA)
+# 📋 Jira Workflow
+
+Проєкт містить:
+- Product Backlog
+- Sprint Board
+- User Stories
+- Acceptance Criteria
+- Workflow Tracking
+
+Файли знаходяться у папці:
+
+```text
+jira/
+```
+
+---
+
+# 🎓 Project Purpose
+
+Проєкт створено з навчальною метою для:
+- system analysis
+- business analysis practice
+- database design
+- workflow modeling
+- requirements documentation
+- Jira & Confluence practice
+- Git/GitHub workflow
+
+---
+
+# 🛠 Tools & Technologies
+
+- Jira
+- Confluence
+- BPMN
+- PostgreSQL
+- Markdown
+- Git & GitHub
+- System Analysis
+- Business Analysis
+
+---
+
+# 👨‍💻 Author
+
+Maksym — student developer & junior business analyst.
