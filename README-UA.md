@@ -1,5 +1,7 @@
 # 🍽 QR Food System
 
+[🇬🇧 English Version](README.md)
+
 Навчальний pet-project для автоматизації обліку харчування студентів за допомогою QR-кодів.
 
 Система дозволяє швидко ідентифікувати студента, списувати кошти з балансу, зберігати історію транзакцій та формувати звіти для бухгалтерії.
@@ -18,22 +20,23 @@
 # 🎯 Мета проєкту
 
 Автоматизувати процес оплати харчування через:
-- QR authentication
-- digital transactions
-- automated reporting
+
+- QR-автентифікацію
+- цифрові транзакції
+- автоматизовану звітність
 
 ---
 
 # ⚙️ Функціонал
 
-✅ QR-code scanning  
-✅ Balance validation  
-✅ Meal payment transactions  
-✅ Transaction history  
-✅ Cook dashboard  
-✅ Administrator panel  
-✅ Monthly reporting system  
-✅ PostgreSQL database integration  
+✅ Сканування QR-кодів  
+✅ Перевірка балансу  
+✅ Оплата харчування  
+✅ Історія транзакцій  
+✅ Панель кухаря  
+✅ Адміністративна панель  
+✅ Система місячної звітності  
+✅ Інтеграція PostgreSQL  
 
 ---
 
@@ -70,7 +73,7 @@
 
 Проєкт містить:
 
-- BPMN diagrams
+- BPMN-діаграми
 - ERD (Entity Relationship Diagram)
 - Use Case diagrams
 - Wireframes
@@ -105,13 +108,13 @@
 
 Проєкт створено з навчальною метою для:
 
-- system analysis
-- business analysis practice
-- database design
-- workflow modeling
-- requirements documentation
-- Jira & Confluence practice
-- Git/GitHub workflow
+- системного аналізу
+- практики бізнес-аналізу
+- проєктування бази даних
+- моделювання бізнес-процесів
+- документування вимог
+- практики Jira & Confluence
+- роботи з Git/GitHub
 
 ---
 

@@ -1,5 +1,6 @@
-````markdown
 # 🍽 QR Food System
+
+[🇺🇦 Українська версія](README-UA.md)
 
 Educational pet project for automating student meal accounting using QR codes.
 
@@ -19,6 +20,7 @@ The system allows fast student identification, balance deduction, transaction hi
 # 🎯 Project Goal
 
 Automate the meal payment process using:
+
 - QR authentication
 - digital transactions
 - automated reporting
@@ -132,4 +134,3 @@ The project was created for educational purposes:
 # 👨‍💻 Author
 
 Maksym — student developer & junior business analyst.
-````
